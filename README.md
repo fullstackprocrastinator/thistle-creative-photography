@@ -48,7 +48,7 @@ To add a gallery photograph:
 1. Add the image to `assets`, using a simple lowercase filename without spaces.
 2. Copy a complete `.gallery-item` button inside `#gallery` in `index.html`.
 3. Set `data-category` to `dance`, `gymnastics` or `pets`. Update `data-image`, `data-title`, `data-description`, the button's `aria-label`, its image `src`, descriptive `alt`, dimensions and visible caption.
-4. Update the initial photograph count in the **All moments** filter and `#gallery-status`. Filtering and lightbox navigation calculate their counts automatically after interaction.
+4. Update the counts in the **Everything** and subject filters, their accessible count labels, and `#gallery-status`. Filtering and lightbox navigation calculate their counts automatically after interaction.
 
 Keep asset paths relative, such as `assets/dance.jpg`, so they work under the GitHub Pages repository path. If the repository or domain changes, update the absolute image URLs in the social metadata and structured data near the top of `index.html`.
 
